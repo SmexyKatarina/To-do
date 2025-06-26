@@ -1,0 +1,6 @@
+{
+    "todo.missing.title": "Missing title for todo. Please input a title.",
+    "todo.missing.description": "Missing description for todo. Please input a description",
+    "todo.missing.both": "Missing information for todo. Please input a title and description",
+    "default": "An error has occured."
+}
