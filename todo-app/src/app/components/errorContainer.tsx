@@ -1,5 +1,5 @@
-import { Dispatch, SetStateAction, useEffect, useState, JSX } from "react";
-import ErrorTile from "./error";
+import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import ErrorTile from "./ErrorTile";
 import { generateUnsecureHash } from '../lib/extras';
 
 export default function ErrorContainer() {
