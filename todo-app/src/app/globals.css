@@ -28,14 +28,14 @@ body {
 }
 
 .input-base-styles {
-  border: dashed lightslategray 1px;
+  border: dotted lightslategray 2px;
   padding: 10px;
-  transition: all 0.75s linear, background-color 0.1s linear, height none;
+  transition: all 1s linear, background-color 0.2s linear, border 0.25s linear;
   background-color: black;
 }
 
 .input-base-styles:hover {
-  border: solid lightgray 1px;
+  border: solid lightgray 2px;
   background-color: rgba(40, 40, 40, 255);
 }
 

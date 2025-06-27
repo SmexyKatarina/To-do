@@ -22,7 +22,7 @@ export default function CustomInput({ inputType, stateStorage, options = CUSTOM_
     if (inputType == "textarea")
         return ( 
             <div className="relative w-full">
-                <textarea value={value} className={"input-base-styles"} style={inputStyle} maxLength={maxLength} onChange={({ currentTarget }) => { 
+                <textarea value={value} className={"input-base-styles"} style={inputStyle} placeholder={placeholder} maxLength={maxLength} onChange={({ currentTarget }) => { 
                     setValue(currentTarget.value); 
                     currentTarget.style.height = "auto";
 					currentTarget.style.height = `${currentTarget.scrollHeight}px`; 
